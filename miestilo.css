@@ -1,11 +1,11 @@
 section {
-    display: flex;
+    display: grid;
     width: 98%;
     height: 95vh;
     padding: 10px;
     background-color: blanchedalmond;
   }
-   
+
   div {
     background-color: palevioletred;
     font-size: 20px;
@@ -32,7 +32,7 @@ section {
         justify-content: center;
         width: 30%;
         min-width: 30%;
-    
+
         flex-grow:1 ;
     }
   }
